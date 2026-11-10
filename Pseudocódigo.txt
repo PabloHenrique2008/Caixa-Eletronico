@@ -3,7 +3,6 @@ saldo ← 1000
 inicia_operacao ← 1
 Enquanto inicia_operacao = 1 faça
 Escreva "Digite valor do saque: "
-Leia saque
 Se saque > saldo então
 Escreva "Saldo insuficiente"
 Senão se saque ≤ 0 então
