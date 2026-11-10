@@ -1,0 +1,40 @@
+Início
+saldo ← 1000
+inicia_operacao ← 1
+Enquanto inicia_operacao = 1 faça
+Escreva "Digite valor do saque: "
+Leia saque
+Se saque > saldo então
+Escreva "Saldo insuficiente"
+Senão se saque ≤ 0 então
+Escreva "Valor inválido"
+Senão se saque MOD 5 ≠ 0 então
+Escreva "Tem que ser múltiplo de 5"
+Senão
+saldo ← saldo - saque
+n100 ← saque DIV 100
+saque ← saque MOD 100
+n50 ← saque DIV 50
+saque ← saque MOD 50
+n20 ← saque DIV 20
+saque ← saque MOD 20
+n10 ← saque DIV 10
+saque ← saque MOD 10
+n5 ← saque DIV 5
+saque ← saque MOD 5
+Escreva "Notas de 100: ", n100
+Escreva "Notas de 50: ", n50
+Escreva "Notas de 20: ", n20
+Escreva "Notas de 10: ", n10
+Escreva "Notas de 5: ", n5
+Escreva "Novo saldo: ", saldo
+Fim Se
+Se saldo ≤ 0 então
+Escreva "Você não tem mais saldo"
+Pare o enquanto
+Senão
+Escreva "Deseja realizar outro saque? (1 - Sim / 0 - Não): "
+Leia inicia_operacao
+Fim Se
+Fim Enquanto
+Fim
