@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-int saldo = 1000;
+int saldo = 2000;
 int saque;
 int inicia_operacao = 1;
 while(inicia_operacao == 1){
