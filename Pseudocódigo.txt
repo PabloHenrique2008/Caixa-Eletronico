@@ -31,7 +31,6 @@ Fim Se
 Se saldo ≤ 0 então
 Escreva "Você não tem mais saldo"
 Pare o enquanto
-Senão
 Escreva "Deseja realizar outro saque? (1 - Sim / 0 - Não): "
 Leia inicia_operacao
 Fim Se
